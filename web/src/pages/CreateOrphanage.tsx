@@ -71,9 +71,9 @@ export default function CreateOrphanage() {
 
     await api.post('orphanages', data)
 
-    alert('Cadastro realizado com sucesso!')
+    // alert('Cadastro realizado com sucesso!')
 
-    history.push('/app')
+    history.push('/orphanages/created_with_success')
   }
 
   return (
